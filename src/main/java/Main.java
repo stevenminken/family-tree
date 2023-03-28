@@ -1,3 +1,6 @@
+/**
+ * Start up class for the project
+ */
 public class Main {
     public static void main(String[] args) {
         Pet kitty = new Pet("Garfield", 2, "RedHairKat");

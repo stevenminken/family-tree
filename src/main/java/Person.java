@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * Initializes a person and has methods to organize the family tree off the person
+ */
 public class Person {
     private String name;
     private String middleName;
@@ -123,6 +126,7 @@ public class Person {
         if (pets == null) {
             pets = new ArrayList<Pet>();
         }
+        pet.setOwner(this);
         pets.add(pet);
     }
 

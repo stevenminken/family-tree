@@ -1,3 +1,6 @@
+/**
+ * Initializes a pet and has a method to connect an owner to the pet
+ */
 public class Pet {
     private String name;
     private int age;

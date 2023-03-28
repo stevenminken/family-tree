@@ -7,15 +7,15 @@ import static org.junit.jupiter.api.Assertions.*;
 class PersonTest {
 
     private Person person;
-    Person father;
-    Person mother;
-    Person brother;
-    Person sister;
-    Person son;
-    Person daughter;
-    Person grandDaughter;
+    private Person father;
+    private Person mother;
+    private Person brother;
+    private Person sister;
+    private Person son;
+    private Person daughter;
+    private Person grandDaughter;
 
-    Pet doggy;
+    private Pet doggy;
 
     @BeforeEach
     public void setup() {
